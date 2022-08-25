@@ -12,5 +12,16 @@ $('.carousel-item', '.show-neighbors').each(function(){
     prev.children(':nth-last-child(2)').clone().prependTo($(this));
   });
 
+  $(function () {
+    $('[data-toggle="offcanvas"]').on('click', function () {
+      $('.offcanvas-collapse').addClass('open')
+      $('.mobileMenu, .overlay').addClass('open');
+    })
+    $('.close-brand').on('click', function () {
+      $('.offcanvas-collapse').removeClass('open')
+      $('.mobileMenu, .overlay').removeClass('open');
+    })
+  })
+  
   
   

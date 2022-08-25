@@ -21,32 +21,43 @@
   <body>
     <!--Start Header Navbar-->
     <div class="main-section__limegreen">
+      <div class="overlay"></div>
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand text-dark" href="#"
             ><strong>Binar Car Rental</strong></a
           >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-toggle="offcanvas">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="offcanvas-collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <div class="mt-5 d-block d-md-none"></div>
+            <a class="navbar-brand text-dark d-inline d-md-none ml-3" href="#"
+              ><strong>BCR</strong></a
+            >
+            <a
+              class="close-brand text-dark d-inline d-md-none float-right"
+              href="#"
+              ><strong><i class="bi bi-x-lg"></i></strong
+            ></a>
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link mx-3 text-dark" href="#service-section">Our Services</a>
+                <a class="nav-link mx-3 text-dark" href="#service-section"
+                  >Our Services</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3 text-dark" href="#whyUs-section">Why Us</a>
+                <a class="nav-link mx-3 text-dark" href="#whyUs-section"
+                  >Why Us</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3 text-dark" href="#testimonial-section">Testimonial</a>
+                <a class="nav-link mx-3 text-dark" href="#testimonial-section"
+                  >Testimonial</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link mx-3 text-dark" href="#faq-section">FAQ</a>
@@ -91,7 +102,6 @@
     <!--Start Body Section-->
     <div class="container">
       <div class="row my-5">
-
         <!--Start Our Service Section-->
         <div class="col-md-6 col-sm-12 my-md-5" id="service-section">
           <img src="img/img_service.svg" class="img-fluid mx-auto d-block" />
@@ -155,63 +165,66 @@
           </p>
         </div>
 
-        
-          <div class="col-md-3 col-sm-12">
-            <div class="card rounded why-us mx-auto">
-              <div class="card-body">
-                <img src="img/icon_thumbs.svg" class="mb-3" />
-                <h5 class="card-title"><strong>Mobil Lengkap</strong></h5>
-                <p class="card-text">
-                  Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
-                  terawat
-                </p>
-              </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="card rounded why-us mx-auto">
+            <div class="card-body">
+              <img src="img/icon_thumbs.svg" class="mb-3" />
+              <h5 class="card-title"><strong>Mobil Lengkap</strong></h5>
+              <p class="card-text">
+                Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
+                terawat
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-3 col-sm-12">
-            <div class="card rounded why-us mx-auto">
-              <div class="card-body">
-                <img src="img/icon_price.svg" class="mb-3" />
-                <h5 class="card-title"><strong>Harga Murah</strong></h5>
-                <p class="card-text">
-                  Harga murah dan bersaing, bisa bandingkan harga kami dengan
-                  rental mobil lain
-                </p>
-              </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="card rounded why-us mx-auto">
+            <div class="card-body">
+              <img src="img/icon_price.svg" class="mb-3" />
+              <h5 class="card-title"><strong>Harga Murah</strong></h5>
+              <p class="card-text">
+                Harga murah dan bersaing, bisa bandingkan harga kami dengan
+                rental mobil lain
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-3 col-sm-12">
-            <div class="card rounded why-us mx-auto">
-              <div class="card-body">
-                <img src="img/icon_24hrs.svg" class="mb-3" />
-                <h5 class="card-title"><strong>Layanan 24 Jam</strong></h5>
-                <p class="card-text">
-                  Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
-                  tersedia di akhir minggu
-                </p>
-              </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="card rounded why-us mx-auto">
+            <div class="card-body">
+              <img src="img/icon_24hrs.svg" class="mb-3" />
+              <h5 class="card-title"><strong>Layanan 24 Jam</strong></h5>
+              <p class="card-text">
+                Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
+                tersedia di akhir minggu
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-3 col-sm-12">
-            <div class="card rounded why-us mx-auto">
-              <div class="card-body">
-                <img src="img/icon_badge.svg" class="mb-3" />
-                <h5 class="card-title"><strong>Sopir Profesional</strong></h5>
-                <p class="card-text">
-                  Sopir yang profesional, berpengalaman, jujur, ramah dan selalu
-                  tepat waktu
-                </p>
-              </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="card rounded why-us mx-auto">
+            <div class="card-body">
+              <img src="img/icon_badge.svg" class="mb-3" />
+              <h5 class="card-title"><strong>Sopir Profesional</strong></h5>
+              <p class="card-text">
+                Sopir yang profesional, berpengalaman, jujur, ramah dan selalu
+                tepat waktu
+              </p>
             </div>
           </div>
-        
+        </div>
+
         <!--End Why Us Section-->
 
         <!--Start Testimonial Section-->
-        <div class="col-md-12 col-sm-12 my-md-5" class="testimonial" id="testimonial-section">
+        <div
+          class="col-md-12 col-sm-12 my-md-5"
+          class="testimonial"
+          id="testimonial-section"
+        >
           <h3 class="mb-4 text-center mt-5"><strong>Testimonial</strong></h3>
           <p class="mb-5 text-center">
             Berbagai review positif dari para pelanggan kami
@@ -664,7 +677,7 @@
         </div>
       </div>
       <!--End Footer Section-->
-      </div>
+    </div>
     <!--End Body Section-->
 
     <script src="js/jquery.min.js"></script>
